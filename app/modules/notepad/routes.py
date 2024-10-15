@@ -7,6 +7,8 @@ from app.modules.notepad.services import NotepadService
 
 notepad_service = NotepadService()
 
+#--------------------------------------------------------------------------------------------------#
+
 @notepad_bp.route('/notepad', methods=['GET'])
 @login_required
 def index():
